@@ -5,8 +5,6 @@
 using namespace std;
 namespace caveofprogramming{
 
-class Bitmap{
-
 class Bitmap {
 private:
 	int m_width{0};
@@ -20,8 +18,5 @@ public:
 	bool write(string filename);
 	virtual ~Bitmap();
 };
-
-}
-
 
 #endif // BITMAP_H
