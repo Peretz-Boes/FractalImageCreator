@@ -10,7 +10,6 @@
 #include "ZoomList.h"
 #include "RGB.h"
 using namespace std;
-namespace caveofprogramming{
 class FractalCreator{
 private:
 	int m_width;
@@ -43,6 +42,5 @@ public:
 	void run(string name);
 
 };
-}
 
 #endif // FRACTALCREATOR_H

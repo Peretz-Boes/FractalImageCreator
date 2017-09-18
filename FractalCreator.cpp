@@ -1,5 +1,5 @@
 #include "FractalCreator.h"
-namespace caveofprogramming{
+using namespace std;
 
 void FractalCreator::addRange(double rangeEnd, const RGB& rgb) {
 	m_ranges.push_back(rangeEnd * Mandelbrot::MAX_ITERATIONS);
@@ -138,6 +138,4 @@ void FractalCreator::drawFractal() {
 
 void FractalCreator::writeBitmap(string name) {
 	m_bitmap.write(name);
-}
-
 }

@@ -1,7 +1,6 @@
 #include <complex>
 #include "Mandelbrot.h"
 using namespace std;
-namespace caveofprogramming{
 
 Mandelbrot::Mandelbrot() {
 
@@ -30,5 +29,4 @@ int Mandelbrot::getIterations(double x, double y) {
 	}
 
 	return iterations;
-}
 }

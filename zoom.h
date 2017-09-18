@@ -1,6 +1,5 @@
 #ifndef ZOOM_H
 #define ZOOM_H
-namespace caveofprogramming{
 
 struct Zoom{
 int x{0};
@@ -9,7 +8,5 @@ int x{0};
 
 	Zoom(int x, int y, double scale) : x(x), y(y), scale(scale) {};
 };
-
-}
 
 #endif // ZOOM_H

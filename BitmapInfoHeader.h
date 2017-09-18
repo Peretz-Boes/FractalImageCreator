@@ -4,7 +4,6 @@
 using namespace std;
 #pragma pack(2)
 
-namespace caveofprogramming{
 struct BitmapInfoHeader{
 int32_t headerSize{40};
 int32_t width;
@@ -18,6 +17,6 @@ int32_t verticalResolution{2400};
 int32_t colours{0};
 int32_t importantColours{0};
 };
-}
 
 #endif // BITMAPINFOHEADER_H
+

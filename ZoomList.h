@@ -3,7 +3,6 @@
 #include <vector>
 #include <utility>
 using namespace std;
-namespace caveofprogramming{
 class ZoomList{
 private:
 	double m_xCenter{0};
@@ -19,7 +18,5 @@ public:
 	void add(const Zoom& zoom);
 	pair<double, double> doZoom(int x, int y);
 };
-
-}
 
 #endif // ZOOMLIST_H

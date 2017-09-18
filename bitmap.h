@@ -3,7 +3,6 @@
 #include <string>
 #include <cstdint>
 using namespace std;
-namespace caveofprogramming{
 
 class Bitmap {
 private:
@@ -20,3 +19,4 @@ public:
 };
 
 #endif // BITMAP_H
+

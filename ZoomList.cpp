@@ -1,6 +1,5 @@
 #include "ZoomList.h"
 using namespace std;
-namespace caveofprogramming{
 
 ZoomList::ZoomList(int width, int height) :
 		m_width(width), m_height(height) {
@@ -22,6 +21,4 @@ pair<double, double> ZoomList::doZoom(int x, int y) {
 	double yFractal = (y - m_height / 2) * m_scale + m_yCenter;
 
 	return pair<double, double>(xFractal, yFractal);
-}
-
 }
